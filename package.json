@@ -1,0 +1,19 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint src --ext .ts",
+    "test": "vitest",
+    "build": "tsc",
+    "start": "ts-node src/main.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  }
+}
